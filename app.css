@@ -1,0 +1,504 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* end of CSS RESET */
+
+
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #5FECFF;
+    width: 100vw;
+    position: relative;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #5FECFF;
+    width: 100%;
+    min-width: 1200px;
+    padding-top: 20px;
+}
+
+.hbmenu {
+    display: none;
+}
+
+nav a {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav li{
+    display: inline;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+    }
+
+.signin {
+    background-color: #5FECFF;
+    border: 2px solid white;
+    border-radius: 1.5em;
+    color: white;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+    min-width: 100px;
+}
+
+.signin:hover{
+    transform: scale(1.1);
+}
+
+
+/* header waves opacity divider */
+
+
+.custom-shape-divider-top-1613599656 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1613599656 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1613599656 .shape-fill {
+    fill: #5FECFF;
+}
+
+/* end of header waves opacity divider */
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-home {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.home-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.bluebutton {
+    background-color: #5FECFF;
+    border: none;
+    border-radius: 1.5em;
+    color: white;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.bluebutton:hover{
+    transform: scale(1.05);
+}
+
+.whitebutton {
+    background-color: white;
+    border: 2px solid #5FECFF;
+    border-radius: 1.5em;
+    color: #5FECFF;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.whitebutton:hover{
+    transform: scale(1.05);
+}
+
+.home-text form {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.section-home h2 {
+    font-size: 1.75em;
+}
+
+.section-features {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    max-width: 960px;
+}
+
+.feature {
+    background-color: #D7FAFF;
+    border-radius: 30px;
+    padding: 15px 25px ;
+    min-height: 500px;
+    margin: 15px;
+}
+
+
+.feature p {
+    text-align: center;
+    color: black;
+    margin: 25px 0px;
+    
+}
+
+.feature h3 {
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 15px;
+}
+
+
+/* footer waves opacity */
+
+.footerwaves {
+    position: relative;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.custom-shape-divider-bottom-1613754012 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613754012 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1613754012 .shape-fill {
+    fill: #FEDF92;
+}
+
+
+/* end of footer waves opacity */
+
+footer {
+    background-color: #FEDF92;
+    width: 100%;
+}
+
+
+.footnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FEDF92;
+    width: 100%;
+    min-width: 1200px;
+    padding-bottom: 20px;
+
+}
+
+
+.footnav li {
+    display: inline;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.footnavbar a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.discord {
+    border: 2px solid #7289DA;
+    border-radius: 2em;
+    color: #7289DA;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+.discord:hover{
+    transform: scale(1.05);
+}
+
+
+
+   
+
+/* TABLET CSS */
+
+@media (max-width: 1200px) {
+
+
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100vw;
+    justify-content: space-between;
+
+
+}
+
+.imglogo {
+    margin-left: 10px;
+}
+
+.signin{
+    min-width: 100px;
+    margin-right: 10px;
+    border-width: 4px;
+}
+
+.navbar {
+    flex: 0 0 100%;
+    order: 2;
+    text-align: center;
+    padding-top: 50px;
+} 
+
+.custom-shape-divider-top-1613599656 svg {
+    height: 100px;
+}
+
+ .section-home{
+        flex-direction: column;
+        width: 100%;
+        max-width: 700px;
+        text-align: center;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imghome {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-features {
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+}
+
+.footnav {
+    width: 100%;
+    min-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1em;
+    
+}
+
+.footnavbar {
+    width: 70%;
+    margin: 20px;
+}
+
+.logotext {
+    align-items: right;
+}
+
+.discord {
+    order: 3;
+    text-align: center;
+    margin: 20px;
+}
+
+/*end of TABLET CSS*/
+
+
+
+/* MOBILE CSS */
+
+
+@media (max-width: 700px){
+
+.imglogo {
+    max-width:50vw;
+
+}
+
+.navbar {
+    display: none;
+}
+
+.hbmenu {
+    display: inline;
+    max-width: 50px;
+}
+
+.custom-shape-divider-top-1613599656 svg {
+
+    height: 50px;
+}
+
+form {
+    flex-direction: column;
+}
+
+
+.imghome {
+    max-width: 300px;
+} 
+    
+
+.section-home h2 {
+    font-size: 1.25em;
+}
+
+.bluebutton, .whitebutton {
+    margin: 10px;
+}
+
+ .section-features{
+        flex-direction: column;
+
+    }
+
+
+    .feature {
+        flex-direction: column;
+        height: 100%;
+    }
+
+.features-text {
+        padding: 15px 25px;
+        max-width: 360px;
+    }
+
+
+    .footnavbar {
+        width: 100%;
+        font-size: .60em;
+    }
+
+    .discord{
+        flex-grow: 1;
+        font-size: 1em;
+    }
+
+    .logotext {
+        order: 3;
+    }
+/* end of MOBILE CSS */
+
+
